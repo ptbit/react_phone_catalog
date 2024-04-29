@@ -1,0 +1,105 @@
+@import '../../styles/main';
+
+.footer {
+  box-shadow: 0 -1px 0 0 $color-elements;
+
+  @include mobile {
+    margin-inline: 16px;
+  }
+
+  @include tablet {
+    margin-inline: 24px;
+  }
+
+  @include desktop {
+    @include desktop-container;
+
+    width: 100%;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 32px;
+
+    @include mobile {
+      flex-wrap: wrap;
+      gap: 32px;
+    }
+  }
+
+  &__logo {
+    flex-grow: 1;
+    height: 32px;
+
+    &--img {
+      height: 100%;
+    }
+  }
+
+  &__links {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    @include mobile {
+      width: 100%;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  }
+
+  &__link {
+    @include upper-case;
+
+    color: $color-secondary;
+    cursor: pointer;
+
+    @include mobile {
+      width: 100%;
+    }
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+
+  &__back-to-top {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: end;
+    gap: 16px;
+
+    @include mobile {
+      width: 100%;
+      justify-content: center;
+    }
+
+    &-label {
+      @include small-text;
+
+      color: $color-secondary;
+      cursor: pointer;
+
+      &:hover {
+        color: $color-primary;
+      }
+    }
+
+    &-button {
+      @include buttons;
+
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid $color-icons;
+    }
+  }
+}

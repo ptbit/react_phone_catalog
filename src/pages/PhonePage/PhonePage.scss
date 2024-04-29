@@ -1,0 +1,54 @@
+@import '../../styles/utils/variables';
+@import '../../styles/utils/mixins';
+
+.page {
+  @include mobile {
+    margin-inline: 16px;
+    max-width: calc(100% - 32px);
+  }
+
+  @include tablet {
+    margin-inline: 24px;
+    max-width: calc(100% - 48px);
+  }
+
+  @include desktop {
+    @include desktop-container;
+
+    width: 100%;
+  }
+
+  flex: 1;
+
+  &__content {
+    margin-block: 24px 64px;
+
+    @include tablet {
+      margin-block: 40px 80px;
+    }
+  }
+
+  &__title {
+    @include h1;
+
+    margin-bottom: 8px;
+  }
+
+  &__count {
+    @include body-text;
+
+    @include mobile {
+      margin-bottom: 32px;
+    }
+
+    color: $color-secondary;
+    margin-bottom: 40px;
+  }
+
+  &__catalog-settings {
+    margin-bottom: 24px;
+    max-width: 320px;
+    display: flex;
+    gap: 16px;
+  }
+}
