@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ebac8490.css",
+    "main.js": "./static/js/main.7ce80d7e.js",
+    "static/media/Mont-Regular.ttf": "./static/media/Mont-Regular.e797167c18f9897bb607.ttf",
+    "static/media/Mont-SemiBold.ttf": "./static/media/Mont-SemiBold.0b5e68ebb36ca4006e21.ttf",
+    "static/media/Mont-Bold.ttf": "./static/media/Mont-Bold.3675b597d3ffb2b75168.ttf",
+    "static/media/cart.svg": "./static/media/cart.089c556339c5739eb156.svg",
+    "static/media/fav-dark.svg": "./static/media/fav-dark.9832f6381c9b94f4ff74.svg",
+    "static/media/fav.svg": "./static/media/fav.8e400f6d6083be7c5f95.svg",
+    "static/media/home.svg": "./static/media/home.e6839de59c42f3b9df40.svg",
+    "static/media/search-dark.svg": "./static/media/search-dark.91a21e2da17da5065b58.svg",
+    "static/media/search.svg": "./static/media/search.d8d560813fddc454ed25.svg",
+    "static/media/fav-red.svg": "./static/media/fav-red.e06f68523386b982e85a.svg",
+    "static/media/menu-dark.svg": "./static/media/menu-dark.5206f3e2de87deb0a6c7.svg",
+    "static/media/menu.svg": "./static/media/menu.59ae130ac89d1e88b2e0.svg",
+    "static/media/up-dark.svg": "./static/media/up-dark.80ae1be7918af7bb5feb.svg",
+    "static/media/up.svg": "./static/media/up.f19e09ae8fb8ee161e93.svg",
+    "static/media/left-dark.svg": "./static/media/left-dark.b529f407a10334985573.svg",
+    "static/media/left.svg": "./static/media/left.6b481f80d9aa03f4a88a.svg",
+    "static/media/right-dark.svg": "./static/media/right-dark.cd4e2c54dc282d4b5730.svg",
+    "static/media/right.svg": "./static/media/right.2ac2c1eb4d2fced19e1e.svg",
+    "static/media/down.svg": "./static/media/down.f09f4e97b6ab375842aa.svg",
+    "static/media/close-dark.svg": "./static/media/close-dark.3ea864f59fecb8596c4b.svg",
+    "static/media/close.svg": "./static/media/close.d99189a57063cb02e093.svg",
+    "static/media/plus-dark.svg": "./static/media/plus-dark.dea157243cc9d361ac05.svg",
+    "static/media/minus-dark.svg": "./static/media/minus-dark.cecb4be39afa7b933ec1.svg",
+    "static/media/minus.svg": "./static/media/minus.cce4862297a181fdf808.svg",
+    "index.html": "./index.html",
+    "main.ebac8490.css.map": "./static/css/main.ebac8490.css.map",
+    "main.7ce80d7e.js.map": "./static/js/main.7ce80d7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebac8490.css",
+    "static/js/main.7ce80d7e.js"
+  ]
+}
