@@ -13,7 +13,11 @@ export const Footer = () => {
         </div>
         <ul className="footer__links">
           <li className="footer__link">
-            <a href="https://github.com/ptbit" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/ptbit/react_phone_catalog/"
+              target="_blank"
+              rel="noreferrer"
+            >
               github
             </a>
           </li>

@@ -5,7 +5,7 @@ import { Product } from '../../types/Product';
 import { ProductsList } from '../../components/ProductsList';
 import { Loader } from '../../components/Loader';
 import { DropDown } from '../../components/DropDown';
-import { perPageVariants, sortByVariants } from '../../constants';
+import { perPageVariants, sortByVariants } from '../../utils/constants';
 import { Pagination } from '../../components/Pagination';
 import { NoResults } from '../../components/NoResults';
 import { BreadCrumbs } from '../../components/BreadCrumbs';
@@ -33,7 +33,7 @@ export const PhonePage = () => {
 
   const query = searchParams.get('query');
   const sortBy = searchParams.get('sort') || '';
-  const perPageStr = searchParams.get('perPage') || `${phones.length}`;
+  const perPageStr = searchParams.get('perPage') || '8';
   const perPage = +perPageStr;
   const currentPage = searchParams.get('page') || 1;
 

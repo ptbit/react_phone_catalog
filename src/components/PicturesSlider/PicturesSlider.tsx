@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import './PicturesSlider.scss';
 import cn from 'classnames';
 import { Link } from 'react-router-dom';
-import { picturesSliderData } from '../../constants';
+import { picturesSliderData } from '../../utils/constants';
 
 export const PicturesSlider = () => {
   const [sliderIndex, setSliderIndex] = useState(0);

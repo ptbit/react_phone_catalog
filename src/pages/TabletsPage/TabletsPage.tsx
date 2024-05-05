@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Product } from '../../types/Product';
 import { DropDown } from '../../components/DropDown';
-import { perPageVariants, sortByVariants } from '../../constants';
+import { perPageVariants, sortByVariants } from '../../utils/constants';
 import { Loader } from '../../components/Loader';
 import { ProductsList } from '../../components/ProductsList/ProductsList';
 import { Pagination } from '../../components/Pagination';

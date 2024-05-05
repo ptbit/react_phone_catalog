@@ -1,4 +1,4 @@
-import { ProductsSliderLength } from '../constants';
+import { ProductsSliderLength } from '../utils/constants';
 import { DiscountProduct } from '../types/DiscountProduct';
 import { Product } from '../types/Product';
 import { ProductDetails } from '../types/ProductDetails';
