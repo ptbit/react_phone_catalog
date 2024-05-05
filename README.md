@@ -1,4 +1,4 @@
-# Responsive landing page
+# React product (phone) catalog + cart + favourites
 
 ## Preview:
 
