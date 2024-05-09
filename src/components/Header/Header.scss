@@ -29,12 +29,12 @@
       display: flex;
 
       @include mobile {
-        bottom: -70px;
+        bottom: 0;
         z-index: 1;
         display: flex;
         border: 1px solid $color-elements;
         position: absolute;
-        left: 0;
+        left: -100vw;
         right: 0;
         width: 100%;
         transition: all 0.3s linear;
@@ -42,7 +42,7 @@
 
       &--active {
         @include mobile {
-          bottom: 0;
+          left: 0;
         }
       }
     }
