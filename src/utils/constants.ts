@@ -32,7 +32,7 @@ export const sortByVariants = [
 export const perPageVariants = [
   {
     title: 'All',
-    params: { perPage: null, page: '1' },
+    params: { perPage: 'All', page: '1' },
   },
   {
     title: '4',

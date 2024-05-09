@@ -32,9 +32,9 @@ export const PhonePage = () => {
   }, []);
 
   const query = searchParams.get('query');
-  const sortBy = searchParams.get('sort') || '';
+  const sortBy = searchParams.get('sort') || 'age';
   const perPageStr = searchParams.get('perPage') || '8';
-  const perPage = +perPageStr;
+  const perPage = perPageStr === 'All' ? phones.length : +perPageStr;
   const currentPage = searchParams.get('page') || 1;
 
   useEffect(() => {
