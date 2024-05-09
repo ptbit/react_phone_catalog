@@ -29,19 +29,20 @@
       display: flex;
 
       @include mobile {
-        display: none;
+        bottom: -70px;
+        z-index: 1;
+        display: flex;
+        border: 1px solid $color-elements;
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+        transition: all 0.3s linear;
       }
 
       &--active {
         @include mobile {
-          z-index: 1;
-          display: flex;
-          border: 1px solid $color-elements;
-          position: absolute;
           bottom: 0;
-          left: 0;
-          right: 0;
-          width: 100%;
         }
       }
     }

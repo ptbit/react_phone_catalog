@@ -47,8 +47,7 @@ export const Header = () => {
         </button>
 
         <div
-          className={cn({
-            header__actions_container: !isBurgerVisible,
+          className={cn('header__actions_container', {
             'header__actions_container--active': isBurgerVisible,
           })}
         >

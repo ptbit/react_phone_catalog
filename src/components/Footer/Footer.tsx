@@ -1,20 +1,18 @@
+import { NavLink } from 'react-router-dom';
 import './Footer.scss';
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container">
-        <div className="footer__logo">
-          <img
-            className="footer__logo--img"
-            src="images/logo.svg"
-            alt="footer logo"
-          />
-        </div>
+        <NavLink to="./" className="footer__logo">
+          <img src="images/logo.svg" alt="Footer Logo" />
+        </NavLink>
+
         <ul className="footer__links">
           <li className="footer__link">
             <a
-              href="https://github.com/ptbit/react_phone_catalog/"
+              href="https://github.com/ptbit/"
               target="_blank"
               rel="noreferrer"
             >
